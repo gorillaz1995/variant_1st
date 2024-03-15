@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "custom_1";
+  src: url("./assets/fonts/Syncopate/Syncopate-Regular.ttf");
+}
+
+@font-face {
+  font-family: "custom_2";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "custom_3";
+  src: url("./assets/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf");
+}
+
+.section {
+  overflow-x: hidden;
+}
+
+.large-text {
+  font-size: 5.25rem; /* Adjust font size as needed */
+  color: #f2f2d2; /* Adjust text color as needed */
+
+  /* Responsive breakpoints */
+  @media (max-width: 768px) {
+    /* For screens <= 768px (mobile) */
+    font-size: 1.35rem; /* Smaller size for mobile */
+  }
+
+  @media (max-width: 1024px) {
+    /* For screens <= 1024px (tablet) */
+    font-size: 2.35rem; /* Medium size for tablets */
+  }
+}
+
+.large-text-fin {
+  font-size: 4.25rem; /* Adjust font size as needed */
+  color: #f2f2d2; /* Adjust text color as needed */
+
+  /* Responsive breakpoints */
+  @media (max-width: 768px) {
+    /* For screens <= 768px (mobile) */
+    font-size: 0.75rem; /* Smaller size for mobile */
+  }
+
+  @media (max-width: 1024px) {
+    /* For screens <= 1024px (tablet) */
+    font-size: 1.7rem; /* Medium size for tablets */
+  }
+}
+
+.firstH {
+  background-color: #0e100f;
+}
+
+.secondH {
+  background-color: #0e100f;
+}
+
+.thirdH {
+  background-color: #0e100f;
+}
+
+.fourthH {
+  background-color: #0e100f;
+}
